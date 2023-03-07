@@ -9,5 +9,13 @@
 .browser {
   background:white
 }
+
+body {
+  background-color: linen;
+}
+h1 {
+  color: orange;
+  margin-left: 40px;
+}
 </style>
 </head>
