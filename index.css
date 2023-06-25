@@ -1,3 +1,4 @@
+
 <html>
 <head>
 <style>
@@ -11,7 +12,8 @@
 }
 
 body {
-  background-color: linen;
+  background-color: grey;
+  text-align: center;
 }
 
 </style>
