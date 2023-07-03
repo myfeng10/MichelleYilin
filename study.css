@@ -1,9 +1,9 @@
 
 
 body {
-  background-color: #fbffda;
+  background-color: #d9d7ff;
   margin:50px;
-  color: #432600;
+  color: #3e2b11;
 }
 
 h2 p{
@@ -18,3 +18,4 @@ h2 p{
 .a:active {
   color: white;
 }
+ 
