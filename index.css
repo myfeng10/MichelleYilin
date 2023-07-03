@@ -17,17 +17,17 @@ body {
   color: #5E3D08;
 }
 
-a: link { 
+.a: link { 
   color: #fffb9d;
 }
-a: hover{
+.a: hover{
   color: #FDB833;
 }
-a: visited {
+.a: visited {
   color: #296EB4;
 }
 
-a: active{
+.a: active{
   color: #1789FC;
 }
 </style>
