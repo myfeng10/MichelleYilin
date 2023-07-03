@@ -1,8 +1,4 @@
 
-<html>
-<head>
-<style>
-
 
 body {
   background-color: #fbffda;
@@ -13,15 +9,12 @@ body {
 h2 p{
   color: red;
 }
-a: link {
+.a:link {
   color: light blue;
 }
-a: hover {
+.a:hover {
   color: orange;
 }
-a: active {
+.a:active {
   color: white;
 }
-
-</style>
-</head>
