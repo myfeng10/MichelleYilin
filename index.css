@@ -8,18 +8,27 @@
   background-color: lightgray;
 }
 .browser {
-  background:white
+  background:white;
 }
 
 body {
-  background-color: #cdd9ff;
+  background-color: #FFD07B;
   margin:100px;
-  color: #432600;
+  color: #B1740F;
 }
 
-.a {
+a: link { 
   color: #fffb9d;
 }
+a: hover{
+  color: #FDB833;
+}
+a: visited {
+  color: #296EB4;
+}
 
+a: active{
+  color: #1789FC;
+}
 </style>
 </head>
