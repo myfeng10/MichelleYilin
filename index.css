@@ -49,17 +49,17 @@ footer {
   text-align: center;
 }
 
-.a:link {
+a:link {
   color: #582f2f;
 }
-.a:hover {
+a:hover {
   color: #FDB833;
 }
-.a:visited {
+a:visited {
   color: #920f0f;
 }
 
-.a:active {
+a:active {
   color: #fff4b4;
 }
 
