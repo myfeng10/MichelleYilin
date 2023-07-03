@@ -9,9 +9,44 @@
 }
 
 body {
+  font-family: Arial, sans-serif;
   background-color: #FFE1AA;
   margin: 100px;
   color: #332E27;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+nav {
+  background-color: #666;
+  color: #fff;
+  padding: 10px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
 }
 
 .a:link {
