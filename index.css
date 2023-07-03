@@ -1,34 +1,33 @@
 
-<html>
-<head>
-<style>
 .all-browsers {
-  margin:0;
+  margin: 0;
   padding: 5px;
   background-color: lightgray;
 }
 .browser {
-  background:white;
+  background: white;
 }
 
 body {
-  background-color: #FFD07B;
-  margin:100px;
-  color: #5E3D08;
+  background-color: #FFE1AA;
+  margin: 100px;
+  color: #332E27;
 }
 
-.a: link { 
-  color: #fffb9d;
+.a:link {
+  color: #582f2f;
 }
-.a: hover{
+.a:hover {
   color: #FDB833;
 }
-.a: visited {
-  color: #296EB4;
+.a:visited {
+  color: #920f0f;
 }
 
-.a: active{
-  color: #1789FC;
+.a:active {
+  color: #fff4b4;
 }
-</style>
-</head>
+
+
+
+
