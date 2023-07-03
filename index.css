@@ -49,19 +49,19 @@ footer {
   text-align: center;
 }
 aside {
-  background-color: lightgray;
+  background-color: rgb(46, 222, 207);
   padding: 10px;
-  color: darkblue;
+  color: rgb(66, 71, 98);
 }
 
 a:link {
-  color: #582f2f;
+  color: #e8abff;
 }
 a:hover {
-  color: #FDB833;
+  color: #ffffed;
 }
 a:visited {
-  color: #920f0f;
+  color: #92ebfb;
 }
 
 a:active {
