@@ -13,6 +13,7 @@ body {
   background-color: #FFE1AA;
   margin: 5px;
   color: #332E27;
+  text-transformation: capitalize;
 }
 
 header {
