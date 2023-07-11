@@ -42,6 +42,7 @@ nav ul {
 nav ul li {
   display: inline;
   margin-right: 10px;
+  list-style-type: square;
 }
 
 nav ul li a {
