@@ -76,7 +76,11 @@ a:active {
   border-radius: 8px;
   margin:auto;
 }
-
+.article{
+  height:200px;
+  width:85%;
+  background-color: powderblue;
+}
 
 
 
