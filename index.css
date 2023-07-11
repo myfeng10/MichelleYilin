@@ -49,7 +49,7 @@ footer {
   text-align: center;
 }
 aside {
-  background-color: rgb(46, 222, 207);
+  background-color: hsla(46, 222, 207,0.3);
   padding: 10px;
   color: rgb(66, 71, 98);
 }
