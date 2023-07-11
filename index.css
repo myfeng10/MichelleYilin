@@ -22,7 +22,10 @@ header {
   color: #fff;
   padding: 20px;
   text-align: center;
-  
+}
+
+h1{
+  font-variant: small-caps;
 }
 nav {
   background-color: #666;
