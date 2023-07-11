@@ -6,6 +6,9 @@ body {
   color: #3e2b11;
 }
 
+h2{
+  text-decoration-line:overline;
+}
 h2 p{
   color: red;
 }
