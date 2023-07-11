@@ -75,6 +75,10 @@ a:active {
   padding: 10px;
   border-radius: 8px;
   margin:auto;
+  outline-style: dashed;
+  outline-color: #99ccff;
+  outline-width: medium;
+  outline-offset: 10px;
 }
 .article{
   height:200px;
