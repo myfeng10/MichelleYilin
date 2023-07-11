@@ -86,3 +86,7 @@ a:active {
   background-color: powderblue;
 }
 
+.upper{
+  text-transform: uppercase;
+}
+
