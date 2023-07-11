@@ -11,7 +11,6 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #FFE1AA;
-  margin: 5px;
   color: #332E27;
   text-transformation: capitalize;
   font-family:"Lucida Console", "Courier New", monospace;
@@ -98,7 +97,7 @@ a:active {
 .subpage{
   height:200px;
   width:85%;
-  margin: 10px;
+  margin: 15px;
   text-align:center;
 }
 
