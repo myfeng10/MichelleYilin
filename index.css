@@ -69,7 +69,7 @@ a:link {
 /* when user mouses mover it */
 a:hover {
   color: #ffffed;
-/*   font-family:monospace; */
+  font-family: Arial, Helvetica, sans-serif;
 }
 a:visited {
   color: #92ebfb;
