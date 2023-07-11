@@ -101,3 +101,9 @@ a:active {
   text-transform: uppercase;
 }
 
+.abutton{
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
