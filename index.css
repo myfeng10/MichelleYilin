@@ -68,6 +68,7 @@ a:link {
 /* when user mouses mover it */
 a:hover {
   color: #ffffed;
+  font-family:monospace
 }
 a:visited {
   color: #92ebfb;
