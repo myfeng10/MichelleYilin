@@ -1,6 +1,5 @@
 body{
-/*   background-color: black; */
-  background-image: url(images/千寻pic.png)
+  background-color: black; 
   text=white;
 }
 
@@ -12,3 +11,9 @@ div{
   background: rgba(106, 90, 205,0.5)
 }
 
+
+.backimage{
+  background-image: url(images/千寻pic.png);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
