@@ -64,11 +64,12 @@ aside {
 a:link {
   color: #e8abff;
   
+  
 }
 /* when user mouses mover it */
 a:hover {
   color: #ffffed;
-  font-family:monospace
+  font-family:monospace;
 }
 a:visited {
   color: #92ebfb;
