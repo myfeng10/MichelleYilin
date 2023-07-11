@@ -3,7 +3,7 @@ body{
   text=white;
 }
 
-div{
+.yellow{
   background-color: yellow;
   opacity:0.5;
 }
