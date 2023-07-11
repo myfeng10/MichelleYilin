@@ -71,6 +71,9 @@ a:active {
 .border{
   border-style:solid;
   boarder-width:medium;
+  boarder-color: rgb(153,153,255);
+  padding: 5px;
+  border-radius: 8px;
 }
 
 
