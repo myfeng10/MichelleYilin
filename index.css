@@ -60,16 +60,21 @@ aside {
   color: rgb(66, 71, 98);
 }
 
+/* unvisited link */
 a:link {
   color: #e8abff;
+  
 }
+/* when user mouses mover it */
 a:hover {
   color: #ffffed;
 }
 a:visited {
   color: #92ebfb;
+  background-color: lightorange;
 }
 
+/* when clicked */
 a:active {
   color: #fff4b4;
 }
