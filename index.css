@@ -68,6 +68,11 @@ a:active {
   color: #fff4b4;
 }
 
+.border{
+  border-style:solid;
+  boarder-width:medium;
+}
+
 
 
 
