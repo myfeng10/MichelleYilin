@@ -11,7 +11,12 @@ div{
   background: rgba(106, 90, 205,0.5);
 }
 
-
+p.solid{
+  border-style:solid;
+}
+p.groove{
+  border-style:groove;
+}
 .backimage{
   background-image: url(images/千寻pic.png);
   background-repeat: no-repeat;
