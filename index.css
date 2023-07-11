@@ -98,7 +98,7 @@ a:active {
 .subpage{
   height:200px;
   width:85%;
-  background-color: powderblue;
+  margin: 10px;
   text-align:center;
 }
 
