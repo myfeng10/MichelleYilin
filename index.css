@@ -71,6 +71,7 @@ a:link {
 a:hover {
   color: #ffffed;
   font-family:"Lucida Console", "Courier New", monospace;
+  text-transform: uppercase;
 }
 a:visited {
   color: #92ebfb;
