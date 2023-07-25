@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="test"></p>
+
+<script>
+// Create an object:
+const mic = {
+  firstName: "Michelle Yilin",
+  lastName: "Feng",
+  id: 1234,
+  fullName: function() {
+    return this.firstName + " " + this.lastName;
+  }
+};
+
+// Display data from the object:
+document.getElementById("test").innerHTML = mic.fullName();
+</script>
+
+</body>
+</html>
