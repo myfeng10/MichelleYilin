@@ -1,0 +1,58 @@
+<!DOCTYPE>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <title>ML</title>
+    </head>
+  
+    <body>
+        <div id="myPlot" style="width:100%;max-width:700px"></div>
+
+        <script>i
+        let slope = 1.2;
+        let intercept = 7;
+        const xValues = [];
+        const yValues = [];
+
+        // Generate values
+        for (let x = 0; x <= 10; x += 1) {
+        xValues.push(x);
+        yValues.push(x * slope + intercept);
+        }
+
+        // Define Data
+        const data = [{
+            x: xValues,
+            y: yValues,
+            mode: "lines"
+        }];
+
+        // Define Layout
+        const layout = {title: "Slope=" + slope + " Intercept=" + intercept};
+
+        // Display using Plotly
+        Plotly.newPlot("myPlot", data, layout);
+        </script>
+
+        <div id="PerceptionAlgor">
+            <p>Will I go to the consert?</p>
+            <div id="demo"></div>
+
+            <script>
+            const threshold = 1.5;
+            const inputs = [1, 0, 1, 0, 1];
+            const weights = [0.7, 0.6, 0.5, 0.3, 0.4];
+
+            let sum = 0;
+            for (let i = 0; i < inputs.length; i++) {
+            sum += inputs[i] * weights[i];
+            }
+
+            document.getElementById("demo").innerHTML = (sum > threshold);  
+            </script>
+
+        </div>
+    </body>
+</html>

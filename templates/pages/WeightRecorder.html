@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weight Recorder</title>
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    </head>
+    <body>
+        <h1>Please Record Your Weight for <span id="currentDate"></span></h1>
+
+        <script>
+            // Get the current date
+            let today = new Date();
+        
+            // Format the date as a string (e.g., "September 7, 2023")
+            let formattedDate = today.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+        
+            // Insert the date into the HTML
+            document.getElementById('currentDate').textContent = formattedDate;
+        </script>
+
+        <input type="number" id="WeightInput">
+        <button>Hi</button>
+
+        
+    </body>
+</html> 

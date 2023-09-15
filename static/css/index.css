@@ -30,6 +30,7 @@ nav {
   background-color: #666;
   color: #fff;
   padding: 10px;
+  overflow: hidden;
 }
 
 nav ul {
@@ -112,4 +113,11 @@ a:active {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+}
+
+.side{
+  flex:30%;
+  background-color:#FFE1AA;
+  opacity:0.9;
+  padding:20px;
 }
