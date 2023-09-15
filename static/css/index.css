@@ -8,6 +8,24 @@
   background: white;
 }
 
+.container {
+  display: flex;
+}
+
+main {
+  flex: 3; /* occupies 3 parts of the container */
+  padding: 0 20px;
+}
+
+
+aside {
+  flex: 1;
+  width: 30%; /* remainder to 100% of the main content width */
+  box-sizing: border-box;
+  padding: 0 20px;  
+  background-color: rgba(46, 222, 207,0.8);
+  color: rgb(66, 71, 98);
+}
 body {
   font-family: Arial, sans-serif;
   background-color: #FFE1AA;
@@ -55,11 +73,6 @@ footer {
   color: #fff;
   padding: 10px;
   text-align: center;
-}
-aside {
-  background-color: rgba(46, 222, 207,0.8);
-  padding: 10px;
-  color: rgb(66, 71, 98);
 }
 
 /* unvisited link */
