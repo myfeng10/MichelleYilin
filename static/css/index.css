@@ -8,8 +8,14 @@
 body {
   font-family: "Times New Roman", Times, serif;
   background-color: #666;
-  color: #332E27;
+  color: #FFEBD1; /* Adjusted for better readability against the background */
   overflow: hidden;
+  font-size: 1rem; /* Default font size */
+  line-height: 1.6; /* Adjusted line height for better readability */
+  font-weight: 400; /* Regular font weight for normal text */
+  letter-spacing: 0.5px; /* Slight letter spacing to improve legibility */
+  word-spacing: 1px; /* Adjusted word spacing for better separation of words */
+  text-rendering: optimizeLegibility; /* Helps with text rendering and legibility */
 }
 
 header, footer, .browser {
@@ -17,8 +23,8 @@ header, footer, .browser {
 }
 
 header, footer {
-  background-color: #333;
-  color: #fff;
+  background-color: #2E2E2E;
+  color: #FFEBD1;
   text-align: center;
 }
 
@@ -27,19 +33,38 @@ header {
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #555; 
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px #0000001a;
 }
 
 
 h1 {
   font-variant: small-caps;
-  font-size: 2em;
-  color: #92ebfb;
+  font-size: 2.5em;
+  color: #FFA477;
   padding-right: 20px;
+  letter-spacing: 1px; 
+  margin-bottom: 10px; 
+  font-weight: bold; 
+
 }
 
-h2, h3 {
-  margin: 15px 0;
+h2 {
+  font-size: 2em; /* Slightly smaller than h1 but larger than regular text */
+  color: #FFBBA6;  /* A toned-down shade of the primary color for differentiation */
+  background-color: #333;  /* Keeping the background to make it distinct */
+  display: inline-block;
+  padding: 0 5px;
+  margin: 10px 0; /* Creating some vertical space around */
+  font-weight: semi-bold; /* Slightly less emphasis than h1 */
+  border-bottom: 3px solid #FFA477; /* A subtle bottom border for visual interest */
+}
+
+h3 {
+  font-size: 1.75em; /* Size to indicate its tertiary importance */
+  color: #FFC5B0;  /* An even more toned-down shade of the primary color */
+  margin: 10px 0; /* Some vertical spacing for separation */
+  font-weight: medium; /* Regular weight as it's of lesser importance than h1 and h2 */
+  text-transform: capitalize; /*Making the first letter of each word capital for visual interest */
 }
 
 nav {
@@ -61,8 +86,8 @@ nav ul {
 
 nav ul li a, nav form input[type="submit"] {
   font-size: 1rem; /* Increase font size */
-  background-color: #555;
-  color: #92ebfb;
+  background-color: #686868;
+  color: #FF934F;
   text-decoration: none;
   padding: 6px 12px; /* Increase padding for a larger touch/click area */
   border-radius: 5px;
@@ -137,12 +162,22 @@ aside {
   background-color: #9ee6e0cc;
 }
 
+footer {
+  background-color: #333; /* Matching with header */
+  color: #fff; /* Maintaining text color consistency */
+  border-top: 1px solid #555; /* Introducing a separating line like the header */
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1); /* A shadow like the header but in the upward direction */
+  position: relative; /* For any future use if you want to position child elements relative to footer */
+}
 
+footer p { /* Styling any paragraphs you may have in the footer */
+  margin: 10px 0;
+}
 .border {
-  border: medium solid orange;
+  border: medium solid #FF934F ;
   padding: 10px;
   border-radius: 8px;
-  outline: medium dashed #99ccff;
+  outline: medium dashed #92ebfb;
   outline-offset: 10px;
   max-width: 500px;
   margin: 10px 0;
@@ -153,6 +188,7 @@ aside {
 }
 
 .browser{
-  background-color: #739aa1;
+  background-color: #5C727D;
   flex: 1;
 }
+
