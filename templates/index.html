@@ -3,8 +3,8 @@
 <head> 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="static/css/index.css">
-	<link rel="icon" type="image/x-icon" href="/images/giraffe1.jpg">>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/index.css') }}">
+	<link rel="icon" type="image/x-icon" href="/images/giraffe1.jpg">
 	<title>Michelle's Personal Page</title>
 </head>
 
@@ -12,57 +12,49 @@
 <body>
 	<header>
 		<h1>welcome to my page</h1>
+		<form>
+			<input type="search" name="q" placeholder="Enter" />
+			<input type="submit" value="Search" />
+		</form>
 	</header>
 	<nav>
 		<ul>
-			<li><a href="{{ url_for('diary') }}">diary</a></li>
-			<li><a href="{{ url_for('social') }}">social</a></li>
-			<li><a href="{{ url_for('study') }}">HTML study</a></li>
-			<li><a href="{{ url_for('debugStudy') }}">debugStudy</a></li>
-			<li><a href="{{ url_for('cssStudy') }}">Css Study</a></li>
-			<li><a href="{{ url_for('jsStudy') }}">jsStudy</a></li>
+			<li><a href="{{ url_for('diary') }}">Diary</a></li>
+			<li><a href="{{ url_for('social') }}">Social</a></li>
+			<li><a href="{{ url_for('study') }}">HTML Study</a></li>
+			<li><a href="{{ url_for('debugStudy') }}">Debug Study</a></li>
+			<li><a href="{{ url_for('cssStudy') }}">CSS Study</a></li>
+			<li><a href="{{ url_for('jsStudy') }}">JS Study</a></li>
 			<li><a href="{{ url_for('ML') }}">ML Study</a></li>
 			<li><a href="{{ url_for('WeightRecorder') }}">Weight Recorder</a></li>
 		</ul>
-		<form>
-			<input type="search" name="q" placeholder="要搜索的内容" />
-			<input type="submit" value="搜索" />
-		</form>
 	</nav>
 
-	<main>
-		<div class="subpage">
-			<section>
-				<article class="browser">
-					<h2>article heading</h2>
-					<div class="border upper">
-					This is my first attempt to build a website, let's see how far will it go
-					</div>
-	
-					<h3>subsection</h3>
-					<p class="border upper">Dont know what to write, but I am tired at this point</p>
-					<h3>another subsection</h3>
-					<p> really want to sleep for now.</p>
-				</article>
-			</section>
-		</div>
-		<br>
-		<div class="subpage">
-			<aside>
-				<h2>this is aside</h2>
-				<ul>
-					<li><a href="#">not directing to any places for now</a></li>
-					<li><a href="#">not directing to any places for now</a></li>
-				</ul>
-			</aside>
-		</div>
-	</main>
-	<div class="subpage">
-		<footer>
-			<p>&copy; any right reserved to Michelle</p>
-		</footer>	
-	</div>
-</body>	
+    <main>
+        <article class="browser">
+            <h2>Article Heading</h2>
+            <div class="border upper">
+                This is my first attempt to build a website, let's see how far it goes.
+            </div>
+            <h3>Subsection</h3>
+            <p class="border upper">Don't know what to write, but I am tired at this point.</p>
+            <h3>Another Subsection</h3>
+            <p>Really want to sleep for now.</p>
+        </article>
+        
+        <aside>
+            <h2>This is Aside</h2>
+            <ul>
+                <!-- Placeholder links for now -->
+                <li><a href="#">Link Placeholder</a></li>
+                <li><a href="#">Link Placeholder</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; All rights reserved to Michelle</p>
+    </footer>
+</body>
+
 </html>
-
-

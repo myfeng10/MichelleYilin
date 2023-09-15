@@ -1,136 +1,158 @@
-
-.all-browsers {
+/* Universal Reset and box-sizing */
+* {
   margin: 0;
-  padding: 5px;
-  background-color: lightgray;
-}
-.browser {
-  background: white;
-}
-
-.container {
-  display: flex;
-}
-
-main {
-  flex: 3; /* occupies 3 parts of the container */
-  padding: 0 20px;
-}
-
-
-aside {
-  flex: 1;
-  width: 30%; /* remainder to 100% of the main content width */
+  padding: 0;
   box-sizing: border-box;
-  padding: 0 20px;  
-  background-color: rgba(46, 222, 207,0.8);
-  color: rgb(66, 71, 98);
 }
+
 body {
-  font-family: Arial, sans-serif;
-  background-color: #FFE1AA;
-  color: #332E27;
-  text-transformation: capitalize;
   font-family: "Times New Roman", Times, serif;
-}
-
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
-
-h1{
-  font-variant: small-caps;
-}
-nav {
   background-color: #666;
-  color: #fff;
-  padding: 10px;
+  color: #332E27;
   overflow: hidden;
 }
 
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
+header, footer, .browser {
+  padding: 20px;
 }
 
-nav ul li {
-  display: inline;
-  margin-right: 10px;
-  list-style-type: square;
-}
-
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-}
-footer {
+header, footer {
   background-color: #333;
   color: #fff;
-  padding: 10px;
   text-align: center;
 }
 
-/* unvisited link */
-a:link {
-  color: #e8abff;
-  
-  
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #555; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-/* when user mouses mover it */
-a:hover {
-  color: #ffffed;
-  font-family:"Lucida Console", "Courier New", monospace;
-  text-transform: uppercase;
-}
-a:visited {
+
+
+h1 {
+  font-variant: small-caps;
+  font-size: 2em;
   color: #92ebfb;
-  background-color: lightorange;
+  padding-right: 20px;
 }
 
-/* when clicked */
-a:active {
-  color: #fff4b4;
+h2, h3 {
+  margin: 15px 0;
 }
 
-.border{
-  border-style:solid;
-  boarder-width:medium;
-  boarder-color: orange;
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #444;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+  flex-wrap: wrap;
+}
+
+nav ul {
+  display: flex; /* Using flex here ensures list items line up in a row */
+  flex-wrap: wrap; /* Allows list items to wrap */
+  list-style-type: none;
+  gap: 20px; /* Provides spacing between list items */
+  width: 100%; /* Take the full width to prioritize wrapping the list items first */
+}
+
+nav ul li a, nav form input[type="submit"] {
+  font-size: 1rem; /* Increase font size */
+  background-color: #555;
+  color: #92ebfb;
+  text-decoration: none;
+  padding: 6px 12px; /* Increase padding for a larger touch/click area */
+  border-radius: 5px;
+  text-transform: uppercase; /* Uppercase text */
+  font-weight: bold; 
+}
+
+nav ul li a:hover, nav form input[type="submit"]:hover {
+  z-index: 1;
+  color:#fff;
+  background-color: #666;
+  text-transform: lowercase;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+nav ul li a:visited {
+  background-color: #444;
+  color: #92ebfb;
+  text-transform: lowercase;
+}
+
+nav form {
+  display: flex;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  background-color: #333;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+input[type="search"] {
+  flex-grow: 2;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #666;
+  color: #fff;
+  transition: 0.3s;
+}
+
+input[type="search"]:focus {
+  border-color: #555;
+  background-color: #444;
+}
+
+input[type="submit"] {
+  padding: 10px 15px;
+  border: none;
+  background-color: #555;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #444;
+}
+
+main {
+  display: flex;
+}
+
+aside {
+  flex: 0 0 15%;
+  padding: 0 20px;  
+  background-color: #9ee6e0cc;
+}
+
+
+.border {
+  border: medium solid orange;
   padding: 10px;
   border-radius: 8px;
-  margin:auto;
-  outline-style: dashed;
-  outline-color: #99ccff;
-  outline-width: medium;
+  outline: medium dashed #99ccff;
   outline-offset: 10px;
-  max-width:500px;
-}
-.subpage{
-  height:200px;
-  width:85%;
-  margin: 15px;
-  text-align:center;
+  max-width: 500px;
+  margin: 10px 0;
 }
 
-.upper{
+.upper {
   text-transform: uppercase;
 }
 
-.abutton{
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-
-.side{
-  flex:30%;
-  background-color:#FFE1AA;
-  opacity:0.9;
-  padding:20px;
+.browser{
+  background-color: #739aa1;
+  flex: 1;
 }
